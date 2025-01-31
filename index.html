@@ -52,8 +52,8 @@
                     <div class="space-x-4 flex items-center">
                         <i class="fa-regular fa-bell font-bold text-2xl"></i>
                         <i class="fa-solid fa-magnifying-glass font-bold text-2xl"></i>
-                        <button class="border text-xl py-2 px-7 rounded-lg border-[#FFDC26] hover:bg-[#FFDC26] hover:text-white transition duration-300">Login</button>
-                        <button class="bg-[#FFDC26] text-xl py-2 px-7 rounded-lg hover:bg-[#FFB800] hover:text-black transition duration-300">Register</button>
+                        <button class="border text-xl py-2 px-7 rounded-lg border-[#FFDC26] hover:bg-[#FFDC26] hover:text-white transition transition-all transform hover:scale-105 hover:shadow-lg duration-300">Login</button>
+                        <button class="bg-[#FFDC26] text-xl py-2 px-7 rounded-lg hover:bg-[#FFB800] hover:text-black transition transition-all transform hover:scale-105 hover:shadow-lg  duration-300">Register</button>
                     </div>
                 </div>
                 
@@ -68,18 +68,17 @@
         <section class="w-11/12 mx-auto">
             <div class="">
                 <div class=" space-y-5 -mb-[100px] md:-mb-[200px] lg:-mb-[300px] xl:-mb-[400px] mt-10 md:mt-28">
-                    <h1 class=" text-3xl w-[80%] xl:text-6xl sec-font lg:w-[50%]">Pamper Your Pet, Because They Deserve
+                    <h1 class=" text-3xl w-[80%] xl:text-6xl sec-font lg:w-[50%] animate-cat">Pamper Your Pet, Because
+                        They Deserve
                         the Best.</h1>
                     <p class="w-[80%] lg:w-[50%] mt-4">Discover a world of treats, toys, and essentials handpicked for
                         your furry friends. Shop now and make tails wag with joy!</p>
-                        <button class="bg-[#ffdc26] text-xl py-2 px-7 rounded-lg cursor-pointer hover:bg-[#FFB800] hover:text-black transition duration-300">
+                        <button class="bg-[#ffdc26] text-xl py-2 px-7 rounded-lg cursor-pointer hover:bg-[#FFB800] hover:text-black transition-all transform hover:scale-105 hover:shadow-lg duration-300">
                             Find a pet
-                          </button>
+                        </button>
+                        
                           
-                          
-                          
-
-                </div>
+                    </div>
                 <div class=" flex justify-end ">
                     <img src="./photo/cat-big.png" alt="" class=" w-full">
                 </div>
@@ -169,9 +168,10 @@
                         <h3 class="text-2xl sec-font lg:text-3xl mb-5 ">T-Shirt For Dogs</h3>
                         <p class="text-base text-gray-800 mb-4">Discover a World of treats, toys and essebtials
                             handpicked for</p>
-                        <button class="bg-[#ffffff] text-xl py-2 px-7 rounded-lg">
-                            Shop Now
-                        </button>
+                            <button class="bg-[#ffffff] text-xl py-2 px-7 rounded-lg cursor-pointer hover:bg-[#FFB800] hover:text-black transition-all transform hover:scale-105 hover:shadow-lg duration-300">
+                                Shop Now
+                            </button>
+                            
                     </div>
                     <div class="flex justify-end">
                         <img src="./photo/cute-pet-mid.png" alt="" class="max-sm:h-52 w-42 max-sm:-mr-8">
@@ -320,6 +320,25 @@
                 </div>
             </div>
         </section>
+        <!-- Challenge part -->
+        <section class="lg:mb-36 bg-[#FFF9F4] py-20">
+            <h2 class="text-3xl lg:text-5xl sec-font w-11/12 mx-auto text-center"><span class="text-[#FFDC26]">39%
+                    Off</span> on Pet Essentials</h2>
+            <div class="grid lg:grid-cols-2 w-11/12 mx-auto items-center">
+        
+                <div class="">
+                    <img src="photo/Challenfe.png" alt="" class="w-full transition-transform hover:scale-110">
+                </div>
+        
+                <div class="text-center lg:text-start mt-5">
+                    <h3 class="text-2xl lg:text-4xl sec-font mb-5">Paw-some Deals Await! </h3>
+                    <p class="text-base lg:text-xl text-gray-700 mb-4">Get tail-wagging discounts on pet essentials! Shop now and save big on food, toys, accessories,
+                        and more for your furry friends. Limited-time offers—grab them before they're gone!
+                    </p>
+                    <button class="bg-[#FFDC26] text-xl py-2 px-7 rounded-lg hover:bg-[#FFB800] hover:text-black transition transition-all transform hover:scale-105 hover:shadow-lg  duration-300">Buy now</button>
+                </div>
+            </div>
+        </section>
 
         <!-- Low price section  start-->
         <section class="w-11/12 mx-auto mb-36">
@@ -355,9 +374,10 @@
     <footer class="bg-[#ffdb2670] mt-[400px]">
         <section
             class="bg-[#FFF9F4] w-11/12 mx-auto flex items-center flex-col gap-10 p-4 lg:gap-32 lg:flex-row  lg:p-9 rounded-2xl relative -translate-y-2/4">
-            <div class="flex max-lg:justify-center max-lg:w-[190px] max-lg:h-[230px]">
-                <img src="./photo/cute-pet-mid.png" alt="">
+            <div class="flex max-lg:justify-center max-lg:w-[190px] max-lg:h-[230px] transition-all transform hover:scale-105 hover:shadow-lg">
+                <img src="./photo/cute-pet-mid.png" alt="" class="w-full h-full object-cover rounded-lg">
             </div>
+            
             <div class="max-lg:text-center">
                 <h2 class="text-2xl mb-5 lg:text-4xl">Get Pawsome News!</h2>
                 <p class="text-base lg:text-xl mb-5 lg:mb-9">Exclusive training tips, ticks, product deals and more.</p>
@@ -365,7 +385,10 @@
                     <input type="search" name="" id="" placeholder="Enter email...."
                         class="text-base text-[#C4C4C4] p-4 bg-white w-full rounded-xl">
                 </div>
-                <button class="bg-[#ffdc26] text-xl py-2 px-7 rounded-lg">Subscribe</button>
+                <button class="bg-[#ffdc26] text-xl py-2 px-7 rounded-lg transition-all transform hover:bg-[#ffb800] hover:scale-105 hover:shadow-lg">
+                    Subscribe
+                </button>
+                
             </div>
         </section>
         <section class="grid  gap-9 lg:gap-32 lg:grid-cols-3 w-11/12 mx-auto pb-36">
