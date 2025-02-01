@@ -19,13 +19,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- Link css  -->
-    <link rel="stylesheet" href="style.css">
-
-    <!-- Tailwind CDN  -->
+        <!-- Tailwind CDN  -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-
+    <style>
+   .prm-font{
+    font-family: "Sora", serif;  
+   }
+   .sec-font{
+    font-family: "ADLaM Display", serif;
+    }
+    @keyframes cat {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+  }
+ .animate-cat {
+    animation: cat 2s infinite;
+  }
+ </style>
+<link rel="shortcut icon" href="photo/logo-header.png" type="image/x-icon">
 </head>
 
 <body class="prm-font text-[#111111]">
@@ -53,7 +71,7 @@
                     <div class="space-x-4 flex items-center">
                         <i class="fa-regular fa-bell font-bold text-2xl"></i>
                         <i class="fa-solid fa-magnifying-glass font-bold text-2xl"></i>
-                        <button class="border text-xl py-2 px-7 rounded-lg border-[#FFDC26] hover:bg-[#FFDC26] hover:text-white transition transition-all transform hover:scale-105 hover:shadow-lg duration-300">Login</button>
+                        <button class="border text-xl py-2 px-7 rounded-lg border-[#FFDC26] hover:bg-[#FFDC26] hover:text-black transition transition-all transform hover:scale-105 hover:shadow-lg duration-300">Login</button>
                         <button class="bg-[#FFDC26] text-xl py-2 px-7 rounded-lg hover:bg-[#FFB800] hover:text-black transition transition-all transform hover:scale-105 hover:shadow-lg  duration-300">Register</button>
                     </div>
                 </div>
